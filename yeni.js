@@ -120,4 +120,63 @@ if (j>0) {
     j++
 }
 console.log(j)
+let weekDay =prompt("günü giriniz").toLowerCase();
+if (weekDay=== "monday"){
+  //  console.log(`bugün günlerden${weekDay},yemek menüsü corba pilav`)
+}switch (weekDay) {
+    case "monday":
+        console.log(`bugün günlerden${weekDay},yemek menüsü corba makarna`) 
+        break;
+    case "tuesday":
+        console.log(`bugün günlerden${weekDay},yemek menüsü corba makarna`) 
+        break;
+    case "wednesday":
+        console.log(`bugün günlerden${weekDay},yemek menüsü corbamak`) 
+        break;
+    case "tursday":
+        console.log(`bugün günlerden${weekDay},yemek menüsü  makararina`) 
+        break;
+    case "friday":
+        console.log(`bugün günlerden${weekDay},yemek menüsü corba `) 
+        break;
 
+    default:
+        console.log("bugün haftasonu")
+        break;
+}
+let g=8
+let h=6
+switch (g>h) {
+    case true:
+        console.log("g h'den büyük");
+        
+        break;
+
+    default:
+        console.log("g h'den küçüktür");
+        break;
+}
+switch (true) {
+    case g>h:
+        console.log("g h'den büyük");  
+        
+        break;
+        case  g < h:
+        console.log("hayır n büyüktür");   
+        
+        default:
+        console.log("yok valla eşitler");   
+        break;
+}
+let İsNight =true
+if (İsNight){
+    console.log("dişlerini fırçala")
+} else{
+    console.log("hemen yat");
+}
+İsNight ? console.log("dişlerini fırçala") : console.log("hemen yat");
+let time =20
+let mesaj=""
+time>=17 ? mesaj="mesai bitti":time>=12 && time <13 ? mesaj="öğle arası":time <8 ? mesaj="mesai baslamadı" :  mesaj="mesai devam"
+console.log(mesaj)
+let mesaj2=time> 8 ?"mesai başladı":"mesai başlamadı"
