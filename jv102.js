@@ -40,5 +40,25 @@ let newArray =new Array(2)
 newArray[0]=3
 newArray[1]=5
 console.log(newArray)
+for (let i = 0 ; i < 5 ; i++) {
+    console.log(i*3)
+}
+let result = 0;
+for (let i = 0 ; i < 3 ; i++) {
+    result += i;
+    console.log(result)
+}
+for (let i = 0 ; i < 10 ; i+=2) {
+    result += i;
+    console.log(result,i)
+
+}
+
+let SampleArr =["m","u","r","k"];
+let randomNam =Math.floor(Math.random()*5)
 
 
+for (let i= 0 ; i < 10 ;i+=2 ) {
+    let random =Math.floor(Math.random()*5)   
+console.log(SampleArr[random])
+}
