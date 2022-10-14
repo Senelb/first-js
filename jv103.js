@@ -14,7 +14,7 @@ console.log(`${params} Elliden büyük`)
 compare()
 for (let i = 0; i < numArray.length; i++) {
     const element = numArray[i];
-    console.log(element)
+ //   console.log(element)
 }
 function calculate(params) {
    for (let i = 0; i <params.length; i++) {
@@ -22,5 +22,21 @@ function calculate(params) {
     console.log(element)
    }
 }    
-    calculate(totalArray)
-    calculate(MyArray)
+    //calculate(totalArray)
+    //calculate(MyArray)
+    function calcu (params) {
+      for (let i = 0; i < params.length; i++) {
+          console.log(params[i]*5) 
+        }
+          
+          
+          
+        if (params[i]>33) {   
+        return;
+           } 
+          console.log(element)
+          const element = params[i];
+    }  
+        
+    calcu(totalArray)
+    calcu(numArray)
